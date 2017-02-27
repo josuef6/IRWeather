@@ -28,7 +28,7 @@ app.get('/process_get', function (req, res) {
    // Prepare output in JSON format
    response = {
       latitude:req.query.latitude,
-      longitude:req.query.longitude
+      longitude:req.query.longitude,
       start:req.query.start
      };
 
